@@ -42,7 +42,7 @@ const Hero = () => {
             <a href="https://github.com/kanavaror9086" target="_blank" rel="noreferrer" className="social-icon-link" aria-label="GitHub">
               <Github size={22} />
             </a>
-            <a href="#" target="_blank" rel="noreferrer" className="social-icon-link" aria-label="Instagram">
+            <a href="https://www.instagram.com/_kanav05_?igsh=cWZtbjZzYWMyMmQy" target="_blank" rel="noreferrer" className="social-icon-link" aria-label="Instagram">
               <Instagram size={22} />
             </a>
           </div>
