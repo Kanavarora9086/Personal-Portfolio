@@ -1,6 +1,6 @@
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr));
   gap: 2rem;
 }
 
@@ -151,10 +151,18 @@
   .projects-grid {
     grid-template-columns: 1fr;
   }
+  
+  .project-title {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 480px) {
   .project-img-container {
-    height: 180px;
+    height: 200px;
+  }
+  
+  .project-desc {
+    font-size: 0.9rem;
   }
 }

@@ -70,5 +70,15 @@
 @media (max-width: 768px) {
   .skills-layout {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .cat-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+  }
+  
+  .skills-list {
+    gap: 1.25rem;
   }
 }
