@@ -15,7 +15,7 @@ const Contact = () => {
           <div className="contact-info glass-card">
             <h3>Contact Information</h3>
             <p className="text-secondary mb-4">
-              Feel free to reach out for collaborations or just to say hi!
+              I’m always open to discussing new opportunities, collaborations, and meaningful software projects.
             </p>
             
             <div className="contact-methods">

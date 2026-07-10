@@ -14,15 +14,15 @@ const Hero = () => {
             </span>
           </div>
           <h1 className="hero-title">
-            <span className="hero-pre-title">Crafting the Future of Web</span>
+            <span className="hero-pre-title">Building Modern Web Experiences</span>
             <br />
             <span className="text-accent">Kanav Arora</span>
             <br />
-            <span className="heading-gradient">Full Stack Architect & DevOps Strategist</span>
+            <span className="heading-gradient">Full Stack Developer & Cloud Enthusiast</span>
           </h1>
 
           <p className="hero-description">
-            I craft high-performance, scalable web solutions using the <span className="text-accent">MERN</span> stack. Specialized in building premium user experiences with clean, maintainable engineering.
+            I’m a B.Tech Computer Science Engineering student focused on <span className="text-accent">Full Stack Development</span>, <span className="text-accent">Cloud Computing</span>, <span className="text-accent">AWS</span>, and <span className="text-accent">DevOps</span>. I build scalable applications and deploy real-world projects on AWS rather than stopping at local development.
           </p>
           
           <div className="hero-actions">

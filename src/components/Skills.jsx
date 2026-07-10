@@ -4,30 +4,50 @@ import './Skills.css';
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend Architecture',
+      title: 'Frontend',
       skills: [
-        { name: 'React.js', level: '90%' },
-        { name: 'JavaScript (ES6+)', level: '95%' },
-        { name: 'CSS3 / SCSS', level: '92%' },
-        { name: 'HTML5', level: '95%' }
+        { name: 'HTML', level: '95%' },
+        { name: 'CSS', level: '92%' },
+        { name: 'JavaScript', level: '95%' },
+        { name: 'React', level: '90%' },
+        { name: 'Bootstrap', level: '88%' },
+        { name: 'Tailwind CSS', level: '85%' }
       ]
     },
     {
-      title: 'Backend & Database',
+      title: 'Backend',
       skills: [
         { name: 'Node.js', level: '88%' },
-        { name: 'Express.js', level: '85%' },
+        { name: 'Express.js', level: '86%' },
         { name: 'MongoDB', level: '85%' },
-        { name: 'REST APIs', level: '90%' }
+        { name: 'REST API', level: '90%' }
       ]
     },
     {
-      title: 'DevOps & Tools',
+      title: 'Cloud',
       skills: [
-        { name: 'Git / GitHub', level: '85%' },
-        { name: 'JWT / Auth', level: '80%' },
-        { name: 'Vite / Webpack', level: '82%' },
-        { name: 'Deployment', level: '75%' }
+        { name: 'AWS EC2', level: '90%' },
+        { name: 'VPC', level: '88%' },
+        { name: 'Subnets', level: '86%' },
+        { name: 'Security Groups', level: '87%' },
+        { name: 'Elastic IP', level: '84%' },
+        { name: 'IAM', level: '85%' },
+        { name: 'RDS', level: '82%' },
+        { name: 'EBS', level: '83%' },
+        { name: 'AWS CLI', level: '86%' }
+      ]
+    },
+    {
+      title: 'Tools & DevOps Basics',
+      skills: [
+        { name: 'Git', level: '88%' },
+        { name: 'GitHub', level: '89%' },
+        { name: 'VS Code', level: '92%' },
+        { name: 'Postman', level: '90%' },
+        { name: 'Vercel', level: '84%' },
+        { name: 'Netlify', level: '84%' },
+        { name: 'Linux', level: '86%' },
+        { name: 'DevOps Basics', level: '82%' }
       ]
     }
   ];
@@ -69,4 +89,3 @@ const Skills = () => {
 };
 
 export default Skills;
-

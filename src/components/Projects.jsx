@@ -26,11 +26,43 @@ const Projects = () => {
       links: { github: 'https://github.com/kanavaror9086', demo: '#' }
     },
     {
-      title: 'Digibridge',
-      category: 'Social Impact',
+      title: 'Jammu University ERP Website',
+      category: 'University Platform',
+      image: cachedInfoImg,
+      description: 'A modern ERP portal developed for Jammu University with responsive UI, authentication, academic modules, optimized backend APIs, and a scalable architecture.',
+      tags: ['React', 'Node.js', 'Express.js', 'MongoDB'],
+      links: { github: 'https://github.com/kanavaror9086', demo: '#' }
+    },
+    {
+      title: 'AWS Portfolio Deployment',
+      category: 'Cloud Deployment',
+      image: weatherHorizonImg,
+      description: 'Successfully deployed my personal portfolio on AWS EC2 using EC2, Elastic IP, a user data script, Security Groups, and Apache Web Server. The deployment is live and demonstrates practical cloud deployment skills.',
+      tags: ['AWS EC2', 'Elastic IP', 'Security Groups', 'Linux'],
+      links: { github: 'https://github.com/kanavaror9086', demo: '#' }
+    },
+    {
+      title: 'DigiBridge',
+      category: 'Educational Platform',
       image: digibridgeImg,
-      description: 'A geolocation-driven platform bridging the digital divide by providing localized skill development resources to rural areas.',
-      tags: ['Node.js', 'React', 'Leaflet', 'Cloudinary'],
+      description: 'An educational platform focused on resource sharing, an interactive interface, modern frontend design, responsive usability, and real-world impact for learners and communities.',
+      tags: ['Node.js', 'React', 'MongoDB', 'Responsive UI'],
+      links: { github: 'https://github.com/kanavaror9086', demo: '#' }
+    },
+    {
+      title: 'Internship Management System',
+      category: 'Management Platform',
+      image: cachedInfoImg,
+      description: 'A professional management platform with role-based authentication, a dashboard, intern tracking, assignment management, progress monitoring, and an admin panel.',
+      tags: ['React', 'Node.js', 'Express', 'MongoDB'],
+      links: { github: 'https://github.com/kanavaror9086', demo: '#' }
+    },
+    {
+      title: 'Vendor Booking Platform',
+      category: 'Booking Solution',
+      image: weatherHorizonImg,
+      description: 'A modern booking platform featuring vendor profiles, booking management, responsive design, and search and filtering for a seamless user experience.',
+      tags: ['React', 'MongoDB', 'Responsive UI', 'Booking Flow'],
       links: { github: 'https://github.com/kanavaror9086', demo: '#' }
     }
   ];
@@ -91,5 +123,4 @@ const Projects = () => {
 };
 
 export default Projects;
-
 
